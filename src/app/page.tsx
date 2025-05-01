@@ -1,7 +1,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
+  // return <h1 className="text-3xl font-bold p-3 text-violet-600">Home</h1>;
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -15,9 +18,20 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get started by editing <code>src/app/page.tsx</code>.
+            ✅ Install Tailwind V4.
+            <code>
+              <Link href="guides/tailwind-v4-installation">LINK</Link>
+            </code>
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>✅ URL Rewrite in Next.js.</li>
+          <li>
+            ⛔ Routing
+            <ol className="pt-2">
+              <li>✅ Static</li>
+              <li>⛔ Dynamic</li>
+            </ol>
+          </li>
+          <li>⛔ Static & Dynamic rendering</li>
         </ol>
 
         <div className={styles.ctas}>

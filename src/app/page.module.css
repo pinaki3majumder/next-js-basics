@@ -44,8 +44,12 @@
   list-style-position: inside;
 }
 
+.main ol ol {
+    padding-left: 20px !important;
+}
+
 .main li:not(:last-of-type) {
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
 .main code {
