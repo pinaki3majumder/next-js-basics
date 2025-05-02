@@ -25,13 +25,13 @@ export default function Home() {
           </li>
           <li>✅ URL Rewrite in Next.js.</li>
           <li>
-            ⛔ Routing
+            ✅ Routing
             <ol className="pt-2">
               <li>✅ Static</li>
-              <li>⛔ Dynamic</li>
+              <li>✅ Dynamic</li>
             </ol>
           </li>
-          <li>⛔ Static & Dynamic rendering</li>
+          <li>✅ Static & Dynamic rendering</li>
         </ol>
 
         <div className={styles.ctas}>
